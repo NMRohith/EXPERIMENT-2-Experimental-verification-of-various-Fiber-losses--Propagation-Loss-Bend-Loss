@@ -14,9 +14,9 @@ To measure propagation and bending losses for two wavelengths in plastic fiber.
 **Theory:**  
 - Losses due to absorption, scattering, bending  
 - Plastic fiber loss ~180 dB/km  
-- Bending loss increases with reduced loop diameter  
+- Bending loss increases with reduced loop diameter
 
-<img width="815" height="431" alt="image" src="https://github.com/user-attachments/assets/ef4632d0-e2dd-4b03-ae63-f571fafe3337" />
+  <img width="815" height="431" alt="image" src="https://github.com/user-attachments/assets/ef4632d0-e2dd-4b03-ae63-f571fafe3337" />
 
 
 **Procedure:**  
@@ -32,19 +32,20 @@ V1/V2 = e [ -a (L1+L2 ) ]
 
 | Fiber Length     | Input Amplitude (V)        | Output Amplitude (V)     |
 |------------------|----------------------------|--------------------------|
-|    1             |       5                    |       10                 |
-|    0.5           |       5                    |       14                 |
+|    1             |       2                    |       6.3                |
+|    0.5           |       2                    |       9                  |
 
 ### Bending Loss
 
-| Bending Diameter | Input Amplitude (V) | Output Amplitude (V) |
-|------------------|----------------------------|--------------------------|
-|    1     for 8cm |       5                    |       10.3               |
-|    0.5  for 6.4cm|       5                    |       9.76               |
+| Bend Diameter | Input (V) | Output (V) |
+| ------------- | --------- | ---------- |
+| 5 cm          | 2 V       | 7.8 V      |
+| 3 cm          | 2 V       | 7.0 V      |
 
 **Calculation**
 
-![Exp6](https://github.com/user-attachments/assets/6809e1c8-d579-4dfe-bd03-c247aaac34c0)
+![Exp2](https://github.com/user-attachments/assets/9d4f23e9-de90-4681-a3e7-e49ce2d14b60)
+
 
 
 **Result:**  
@@ -55,6 +56,5 @@ The propagation (transmission) loss was measured over different lengths of the f
 The bending loss was observed by varying the loop diameter of the fiber and measuring output amplitude — as the bend diameter decreased, the output dropped, verifying increased bending loss.
 
 Hence, the aim of measuring both propagation loss and bending loss characteristics of the fiber was achieved.
-
 
 ---
